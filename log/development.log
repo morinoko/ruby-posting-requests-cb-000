@@ -1620,3 +1620,28 @@ Processing by SearchesController#search as HTML
 Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 126.2.63.14 at 2019-03-04 22:55:53 +0000
+Cannot render console from 126.2.63.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 24ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 126.2.63.14 at 2019-03-04 22:55:56 +0000
+Cannot render console from 126.2.63.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 126.2.63.14 at 2019-03-04 22:56:23 +0000
+Cannot render console from 126.2.63.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dbC4/9K8E+/V2mlzRAU4NRhS+Ke75JknI6UJahyWZWq8SOryGK4zNBzIYIbTUsz8Xq+1H3/C6gHuG/POJuuSnw==", "zipcode"=>"43206", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 289ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
